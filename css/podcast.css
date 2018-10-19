@@ -1,0 +1,26 @@
+#red-square{
+    background-color: #FF8383;
+    width: 33.3%;
+    height: 54px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+#red-square a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.red-box{
+overflow: hidden;
+}
+
+#red-square:nth-child(2){
+    background-color: #FF6B6B;
+}
+
+#red-square:nth-child(3){
+    background-color: #E25656;
+}
