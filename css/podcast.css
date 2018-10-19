@@ -11,12 +11,13 @@
     color:white;
     text-align: center;
     text-decoration: none;
-
+    position: relative;
+    top: 20px;
 }
 
 .red-box{
 overflow: hidden;
-padding-top: 10px;
+
 }
 
 #red-square:nth-child(2){
