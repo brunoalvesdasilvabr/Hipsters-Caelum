@@ -35,6 +35,8 @@ body{
 .header2{
     clear: both;
     width: 100%;
+    height: 77px;
+    overflow: hidden;
 }
 
 .nav-1 ul li{
@@ -57,6 +59,9 @@ body{
  font-weight: bold;
  text-transform: uppercase;
  
+}
+.nav-1 ul li:first-child a:hover{
+    color: blue;
 }
 .nav2{
     width: 70%;
@@ -110,7 +115,7 @@ body{
     width:100%;
     height: 3px;
     background-color: blue;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .nav2 ul li a:hover:after{
@@ -132,4 +137,302 @@ body{
 }
 .nav2 ul li:nth-child(6) a:after{
     background-color: red;
+}
+
+/* ................ Final do Header................. */
+.container{
+    clear: both;
+   background-color: #ededed;
+   overflow: hidden;
+}
+.section1{
+    width:70%;
+    padding: 40px 20px;
+    float: left;
+}
+.main-article{
+    position: relative;
+}
+
+.img-article{
+    max-width: 100%;
+    height: 429px;
+    position: relative;
+    background-image: url("https://i1.wp.com/hipsters.tech/wp-content/uploads/2018/10/118_Hipsters.jpg?w=1200&ssl=1");
+    background-size: cover;
+}
+
+
+.main-article-bar{
+    clear: both;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.main-article-bar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(85, 98, 112);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.articles{
+ width: 100%;
+ margin-top: 60px;
+ overflow: hidden;
+ 
+}
+
+.box{
+    min-height: 330px;
+    width: 33%;
+    padding: 10px;
+    float: left;
+}
+
+.box a img{
+    width: 100%;
+}
+
+.article-bar{
+    padding: 20px;
+    background-color: white;
+
+}
+
+.article-bar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(85, 98, 112);
+    font-weight: 700;
+    font-size: 15px;
+    /* margin-left: 15px; */
+    /* text-indent: 15px; */
+}
+
+.data time{
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.box >div {
+background-color: white;
+} 
+
+/* ..................Fim dos articles.......... */
+
+.next{
+    background-color: white;
+    margin-top: -10px;
+    padding: 20px;
+    text-align: center;
+    width: 87%;
+    margin-left: 37px;
+}
+
+.next a{
+    border: 1px solid rgb(69, 176, 238);
+    padding:10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(69, 176, 238);
+    font-weight: bold;
+}
+
+.next a:hover{
+    background-color: rgb(69, 176, 238);
+    color: white;
+}
+
+.next a:first-child{
+    border: none;
+}
+/* 
+ .........................Fim da barra next ......................... */
+
+ aside{
+     width: 30%;
+     float: left;
+     padding: 40px 20px;
+ }
+
+ .header-text{
+     color: white;
+     background-color: #3f3f3f;
+     font-size: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .text-box{
+     background-color: white;
+     font-weight: 300;
+     font-size: 14px;
+     margin-top: 20px;
+     line-height: 24px;
+     padding: 10px;
+ }
+
+.caixinha{
+    border: 1px solid rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+#option{
+    width: 100%;
+    padding: 10px;
+}
+
+#selecionar{
+    width: 100%;
+}
+
+#input-busca{
+
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+}
+
+#input-busca::placeholder{
+    color:black;
+
+}
+
+.caixinha-input{
+    padding: 10px;
+}
+
+.box1{
+    padding: 10px;
+}
+.Assinar1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(85, 98, 112);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* ............ Fim do Aside ................ */
+
+footer{
+    clear: both;
+    width: 100%;
+}
+
+.footer1{
+padding: 66px auto;
+ background-image: url(https://hipsters.tech/wp-content/uploads/2016/07/hipsters-header-pattern.png);
+ background-color: #3f3f3f;
+ overflow: hidden;
+}
+
+.header-footer-div{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+}
+
+.header-footer-div li a{
+    text-decoration-style: none;
+    text-decoration:none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.header-footer-div li a:hover{
+    border-bottom: 1px solid #FFF;
+    background-color: #3F3F3F;
+}
+.recent{
+    float:left;
+    padding: 90px;
+}
+.Assinar{
+    float: left;
+    padding: 90px;
+}
+
+.underline-class{
+    border-bottom: 3px solid white;
+}
+
+.bottom-footer{
+    clear: both;
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+    color: #B8B8B8;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/* ......................... fim footer1..................... */
+
+.caelum h2 a{
+    color: #657176;
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-top: 54px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer2{
+    margin: 66px auto; 
+    width: 100%;
+}
+
+#caelum{
+    width: 20px;
+}
+
+#desc{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+#red-square{
+    background-color: #FF8383;
+    width: 33.3%;
+    height: 54px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+#red-square a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.red-box{
+overflow: hidden;
+}
+
+#red-square:nth-child(2){
+    background-color: #FF6B6B;
+}
+
+#red-square:nth-child(3){
+    background-color: #E25656;
 }
