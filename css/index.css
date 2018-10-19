@@ -38,6 +38,9 @@ body{
     height: 77px;
     overflow: hidden;
 }
+.article-bar:nth-child(4){
+ padding: 10px;
+}
 
 .nav-1 ul li{
     display: inline;
@@ -220,6 +223,7 @@ body{
 
 .box >div {
 background-color: white;
+height: 151px;
 } 
 
 /* ..................Fim dos articles.......... */
@@ -289,6 +293,8 @@ background-color: white;
 #option{
     width: 100%;
     padding: 10px;
+    margin-top: 10px;
+    border: none;
 }
 
 #selecionar{
@@ -390,7 +396,11 @@ padding: 66px auto;
     margin: 90px auto;
 }
 /* ......................... fim footer1..................... */
-
+.caelum{
+    float: left;
+    padding: 40px;
+    padding-right: 270px;
+}
 .caelum h2 a{
     color: #657176;
     letter-spacing: normal;
@@ -405,14 +415,41 @@ padding: 66px auto;
     width: 100%;
 }
 
-#caelum{
-    width: 20px;
+#icone{
+    width: 15px;
 }
 
 #desc{
     text-decoration: none;
     text-decoration-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 19px;
+    
 }
 
+#titulo-footer{
+    font-size: 10px;
+    color: #d7e0e5;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 19px;   
+
+}
+
+.barra{
+    padding: 30px;
+    float: left;
+}
+
+.barra ul{
+    list-style-type: none;
+
+}
+
+.barra ul li a{
+    text-decoration: none;
+}
 /* ..................................PAGINA PODCAST........................ */
 

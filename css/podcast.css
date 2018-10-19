@@ -5,6 +5,7 @@
     padding-right: 15px;
     padding-left: 15px;
     float: left;
+    text-align: center;
 }
 #red-square a{
     color:white;
@@ -15,6 +16,7 @@
 
 .red-box{
 overflow: hidden;
+padding-top: 10px;
 }
 
 #red-square:nth-child(2){
@@ -24,3 +26,9 @@ overflow: hidden;
 #red-square:nth-child(3){
     background-color: #E25656;
 }
+
+.audio{
+    border-radius: none;
+    width: 100%;
+}
+
